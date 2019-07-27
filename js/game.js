@@ -37,12 +37,12 @@ window.onload = function() {
         Game.init();
         var display = Game.getDisplay();
         document.getElementById("game").appendChild(display.getContainer());
-        /*
+        /*s
         // Load start screen
             Game.switchScreen('Title');
         */
-        display.drawText(Game._displayWidth/2,
+        display.drawText((Game._displayWidth/2 - 6),
                             Game._displayHeight/2,
-                            'hi');
+                            "'ello 'orld");
     }
 };
